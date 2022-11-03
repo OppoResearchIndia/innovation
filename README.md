@@ -1,7 +1,5 @@
 # OPLUS Innovation team website
 
-[Live site](https://innovation-team.netlify.app/).
-
 ## Available Scripts
 
 In the project directory, you can run:
