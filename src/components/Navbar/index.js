@@ -15,7 +15,7 @@ const Navbar = ()=>{
         <>
             <div className='nav-main'>
                 <div className='nav-logo'>
-                <Link onClick={()=>setMobileNavbar(!mobileNavbar)} to={"/"} style={{textDecoration: 'none', color:'white'}}><h2>OPLUS</h2></Link>
+                <Link onClick={()=>setMobileNavbar(false)} to={"/"} style={{textDecoration: 'none', color:'white'}}><h2>OPLUS</h2></Link>
                 </div>
                 <div className = {mobileNavbar === false?'nav-options mobile-nav-option':'nav-options'}>
                     <ul>
