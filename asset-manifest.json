@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/innovation/static/css/main.70a762ee.css",
+    "main.js": "/innovation/static/js/main.cb8cf15f.js",
+    "static/js/787.002f2303.chunk.js": "/innovation/static/js/787.002f2303.chunk.js",
+    "static/media/aboutus_header.jpg": "/innovation/static/media/aboutus_header.7cfb410322ed6c289f34.jpg",
+    "static/media/research_header.jpg": "/innovation/static/media/research_header.adc9dbe6481c20081ecc.jpg",
+    "static/media/research.jpg": "/innovation/static/media/research.22bbf17fa7295322b276.jpg",
+    "static/media/career_header.jpg": "/innovation/static/media/career_header.7f1a58dfdb88acec832b.jpg",
+    "static/media/institute-collab.jpg": "/innovation/static/media/institute-collab.be44213fadbaa7d5c246.jpg",
+    "static/media/start-up.jpg": "/innovation/static/media/start-up.4560ded186a67caefb6a.jpg",
+    "static/media/contactus_header.jpg": "/innovation/static/media/contactus_header.42af9bfd8a2ec110caa6.jpg",
+    "index.html": "/innovation/index.html",
+    "main.70a762ee.css.map": "/innovation/static/css/main.70a762ee.css.map",
+    "main.cb8cf15f.js.map": "/innovation/static/js/main.cb8cf15f.js.map",
+    "787.002f2303.chunk.js.map": "/innovation/static/js/787.002f2303.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70a762ee.css",
+    "static/js/main.cb8cf15f.js"
+  ]
+}
