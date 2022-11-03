@@ -1,0 +1,20 @@
+[   
+    {
+        "id" : "0",
+        "position" : "Software Engineer",
+        "team": "Innovation Team",
+        "location" : "Hyderabad",
+        "postedOn" : "Sept 2, 2022",
+        "link" : "https://www.linkedin.com/posts/gchakradhar-hr-20_greatopportunity-innovation-artificialintelligence-activity-6973950574048276480-Mcby?utm_source=share&utm_medium=member_desktop",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eius consequuntur, delectus dolore, repudiandae accusantium amet placeat accusamus cum facere nesciunt, odit modi ad perspiciatis quasi a impedit omnis earum."
+    },
+    {
+        "id" : "1",
+        "position" : "Display Engineer",
+        "team": "Innovation Team",
+        "location" : "Hyderabad",
+        "postedOn" : "Sept 2, 2022",
+        "link" : "https://www.linkedin.com/posts/gchakradhar-hr-20_greatopportunities-displaytechnologies-video-activity-6971327915376467968-WSu6?utm_source=share&utm_medium=member_desktop",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eius consequuntur, delectus dolore, repudiandae accusantium amet placeat accusamus cum facere nesciunt, odit modi ad perspiciatis quasi a impedit omnis earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eius consequuntur, delectus dolore, repudiandae accusantium amet placeat accusamus cum facere nesciunt, odit modi ad perspiciatis quasi a impedit omnis earum"
+    }
+]

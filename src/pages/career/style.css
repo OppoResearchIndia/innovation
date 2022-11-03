@@ -1,0 +1,24 @@
+.open-position-div{
+    width: 80%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.open-position-div h3{
+    margin: 2rem;
+    font-size: 30px;
+    font-weight: 600;
+}
+.career-container{
+    background-color: #f0f0f2;
+    padding-bottom: 1rem;
+}
+@media(max-width:768px){
+    .open-position-div{
+        width: 90%;
+    }
+}
+@media(max-width:425px){
+    .open-position-div{
+        width: 100%;
+    }
+}

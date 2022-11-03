@@ -1,0 +1,133 @@
+/* About header */
+
+.about-header-div{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.about-header-div::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-image: url(../../Images/aboutus_header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.about-header-div h1{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+
+/* Research header */
+
+
+.research-header-div{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.research-header-div::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-image: url(../../Images/research_header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.research-header-div h1{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+
+/* Career header */
+
+
+.career-header-div{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.career-header-div::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-image: url(../../Images/career_header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.career-header-div h1{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+
+/* Contact us header */
+
+
+.contactus-header-div{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.contactus-header-div::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-image: url(../../Images/contactus_header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contactus-header-div h1{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heroDiv{
+    /* background-image: url(C:\Users\605245\Desktop\innovation-team\public\Image\main_bg_image.jpg); */
+    /* background-size: cover; */
+    background-color: #cdffc1;
+    color: black;
+    height: 90vh;
+    display: flex;
+    /* position: fixed; */
+} 
+img{
+    height: 7rem;
+    position: relative;
+}
+.heroimage-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 12rem;
+}
+.img-div{
+    position: absolute;
+}
+.bulb-container img{
+    height: 25rem;
+}
+.person-container img{
+    height: 19rem;
+    top: 3.6rem;
+    right: -4rem;
+}
+.robo-container img{
+    height: 6rem;
+    top: -6rem;
+    right: -2rem;
+}
+.mobile-container img{
+    height: 3rem;
+    top: 0rem;
+    right: -17rem;
+}
+
+.laptop-container img{
+    height: 4rem;
+    top: -2rem;
+    left: -2rem;
+} 

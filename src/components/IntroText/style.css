@@ -1,0 +1,52 @@
+.introTextDiv{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 5rem;
+    background-color: black;
+    color: white;
+}
+.introTextDiv p{
+    font-size: 12px;
+    width: 30rem;
+}
+.introTextDiv h1{
+    margin-right: 5rem;
+}
+span{
+    font-size:20px;
+    font-weight:bold;
+}
+.O{
+    color: #1EA366;
+}
+@media(max-width:1028px){
+    .introTextDiv{
+        flex-direction: column;
+    }
+    .introTextDiv h1{
+        margin-right: 0;
+    }
+    .introTextDiv p{
+        text-align: center;
+        width: fit-content;
+    }
+}
+@media(max-width:500px){
+    .introTextDiv{
+        flex-direction: column;
+    }
+    .introTextDiv h1{
+        margin-right: 0;
+    }
+    .introTextDiv p{
+        text-align: center;
+        width: fit-content;
+    }
+    .introTextDiv{
+        padding: 1rem 1rem;
+    }
+}

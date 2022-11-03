@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #046a38;
+}
+
+::selection {
+  color: white;
+  background: #046a38;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}

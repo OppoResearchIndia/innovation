@@ -1,0 +1,19 @@
+.about-content-div{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f2;
+    /* background-color: white; */
+    font-weight: 300;
+}
+.about-content-div p{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+@media(max-width: 768px){
+    .about-content-div p{
+        width: 80%;
+    }
+}

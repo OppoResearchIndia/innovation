@@ -1,0 +1,127 @@
+.nav-main{
+    width: 100%;
+    height: 5rem;
+    display: grid;
+    grid-template-columns: 5% 1fr 4fr 5%;
+    font-family: 'Poppins', sans-serif;
+    /* position: fixed; */
+    background-color: #046a38;
+    z-index: 1;
+}
+.nav-logo{
+    display: grid;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+}
+.nav-options ul{
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.nav-options ul li{
+    text-decoration: none;
+    padding-left: 3rem;
+}
+
+ .link {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: white;
+    border-radius: 2px;
+ }
+ 
+ .link:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: white;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+ }
+ 
+ .link:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+ }
+ .curr-page:after{
+    transform: scaleX(1);
+   transform-origin: bottom left;
+ }
+ .link{
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color: white;
+  border-radius: 2px;
+ }
+
+ .hamburger-menu{
+  display: none;
+ }
+
+ @media (max-width : 900px){
+    .hamburger-menu-icon{
+      color: white;
+      z-index: 2;
+    }
+    .hamburger-menu{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      grid-row: 1/2;
+      grid-column: 3/4;
+    }
+    .nav-options {
+      display: block;
+      z-index: 2;
+      grid-column: 1/-1;
+      height: 100vh;
+      display: flex;
+      backdrop-filter: blur(50px);
+      transition: backdrop-filter 0.2s;
+      flex-direction: column;
+      justify-content: center;
+      /* margin-bottom: 15rem; */
+      position: relative;
+      top: -5rem;
+    }
+    .nav-options ul {
+      height: auto;
+      flex-direction: column;
+      background-color: white;
+      padding: 2rem;
+      margin: 2rem;
+      box-shadow: 0px 3px 10px 0px #0000004a;
+      border-radius: 2rem;
+  }
+    .nav-options ul li{
+      padding-left: 0;
+      margin: 0.5rem;
+    }
+    .nav-logo{
+      grid-row: 1/2;
+      z-index: 3;
+    }
+    .nav-main{
+      display: grid;
+      grid-template-columns: 5% 1fr 1fr 5%;
+      grid-template-rows: 5rem auto;
+    }
+    .mobile-nav-option{
+      display: none;
+    }
+    .link {
+      color: #046a38;
+    }
+    .link::after{
+      background-color: #046a38;
+    }
+ }

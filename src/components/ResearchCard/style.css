@@ -1,0 +1,61 @@
+.research-card-div{
+    font-family: 'poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto auto auto;
+    /* box-shadow: 0 0 black; */
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    border-bottom: 1px solid #DDDDDD;
+}   
+.research-card-div:hover{
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+.research-image{
+    grid-row: 1/-1;
+    margin: 7px 12px 0px 0px;
+}
+.research-description{
+    min-height: 8rem;
+    font-size: 14px;
+    font-weight: 300;
+}
+.research-image img{
+    width: 100%;
+    height: auto;
+}
+.research-title {
+    padding-bottom: 4px;
+}
+.research-title a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+.research-title a:hover{
+    color: rgb(0 103 177);
+}
+.research-published {
+    padding-bottom: 4px;
+}
+.research-published h5 {
+    font-weight: 500;
+}
+.research-published h5 span{
+    font-size: 13px;
+}
+.research-description a{
+    text-decoration: none;
+    color: rgb(0 103 177);
+}
+.research-description a:hover{
+    text-decoration: underline;
+}
+@media(max-width:425px){
+    .research-card-div{
+        grid-template-columns: none;
+    }
+}
