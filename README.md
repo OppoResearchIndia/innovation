@@ -1,5 +1,5 @@
 # OPLUS Innovation team website
-Site link [Live](https://opporesearchindia.github.io/innovation)
+Live site [Link](https://opporesearchindia.github.io/innovation)
 
 ## Available Scripts
 
