@@ -7,7 +7,7 @@ const Navbar = ()=>{
     const location = useLocation();
     const [mobileNavbar, setMobileNavbar] = useState(false);
     if(mobileNavbar===true){
-        document.body.style.overflow = "hidden";
+        document.body.style.overflowz = "hidden";
     }else{
         document.body.style.overflow = "scroll";
     }
